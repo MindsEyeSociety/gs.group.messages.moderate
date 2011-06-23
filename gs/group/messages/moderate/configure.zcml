@@ -10,5 +10,14 @@
     name="admin_moderate_change.html"
     class=".changegroup.ChangeGroup"
     permission="zope2.ManageProperties"/>
+    
+  <!--The Admin Tab -->
+  <browser:viewlet name="gs-group-messages-moderate-home-admin-tab"
+    manager="gs.group.home.interfaces.IGroupHomepageAdminLinks"
+    template="browser/templates/adminlist.pt"
+    class="gs.group.member.base.viewlet.SiteAdminViewlet"
+    permission="zope2.Public"
+    weight="5"
+    title="Request" />
 
 </configure>

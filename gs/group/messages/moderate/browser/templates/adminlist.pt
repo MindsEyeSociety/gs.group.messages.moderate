@@ -1,0 +1,5 @@
+<li id="moderate-links"><a href="admin_moderate_change.html">Change
+    the <strong>moderation</strong></a> in
+  <span class="group" tal:content="view/groupInfo/name">this group</span>.
+</li><!--moderate-links-->
+
