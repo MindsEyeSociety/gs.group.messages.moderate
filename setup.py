@@ -27,7 +27,7 @@ setup(name='gs.group.messages.moderate',
     url='http://groupserver.org/',
     license='other',
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['gs', 'gs.group', 'gs.group.member'],
+    namespace_packages=['gs', 'gs.group', 'gs.group.messages'],
     include_package_data=True,
     zip_safe=True,
     install_requires=[

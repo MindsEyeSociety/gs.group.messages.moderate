@@ -1,4 +1,5 @@
 # coding=utf-8
+from zope.interface import Interface
 from zope.schema import Choice
 from zope.schema.vocabulary import SimpleVocabulary, SimpleTerm
 
