@@ -32,8 +32,12 @@ setup(name='gs.group.messages.moderate',
     zip_safe=True,
     install_requires=[
         'setuptools',
+        'gs.content.form',
         'gs.group.base',
-        'gs.group.messages.base'
+        'gs.group.home',
+        'gs.group.member.base',
+        'gs.group.messages.base',
+        'Products.GSGroup',
         # -*- Extra requirements: -*-
     ],
     entry_points="""
