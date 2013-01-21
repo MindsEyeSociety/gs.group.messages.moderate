@@ -1,5 +1,4 @@
-<li id="moderate-links"><a href="admin_moderate_change.html">Change
-    the <strong>moderation</strong></a> in
-  <span class="group" tal:content="view/groupInfo/name">this group</span>.
-</li><!--moderate-links-->
-
+<li id="gs-group-messages-moderate-admin-links">
+  <a tal:attributes="href string:${view/groupInfo/relative_url}/admin_moderate_change.html"
+    href="admin_moderate_change.html">Change the <strong>moderation</strong></a>
+</li><!--gs-group-messages-moderate-admin-links-->
