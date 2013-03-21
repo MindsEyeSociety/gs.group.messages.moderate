@@ -32,6 +32,11 @@ setup(name='gs.group.messages.moderate',
     zip_safe=True,
     install_requires=[
         'setuptools',
+        'zope.cachedescriptors',
+        'zope.formlib',
+        'zope.interface',
+        'zope.schema',
+        'Zope2',
         'gs.content.form',
         'gs.group.base',
         'gs.group.home',
@@ -43,4 +48,3 @@ setup(name='gs.group.messages.moderate',
     entry_points="""
     # -*- Entry points: -*-
     """,)
-
