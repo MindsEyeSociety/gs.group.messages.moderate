@@ -16,7 +16,7 @@
 
   <browser:page
     name="admin_moderate_change.html"
-    for="Products.XWFChat.interfaces.IGSGroupFolder"
+    for="gs.group.base.interfaces.IGSGroupMarker"
     class=".changegroup.ChangeGroup"
     permission="zope2.ManageProperties"/>
 
