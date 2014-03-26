@@ -9,7 +9,7 @@
       </span>
     </title>
     <tal:block metal:fill-slot="metadata">
-      <link rel="up" href="#" 
+      <link rel="up" href="#"
             tal:attributes="href view/groupInfo/relativeURL;
                             title view/groupInfo/name"/>
     </tal:block>
@@ -27,7 +27,7 @@
                 tal:content="string:${view/siteInfo/name} Homepage">Home</span></a>
       </li>
       <li>
-        <a class="group" 
+        <a class="group"
            tal:attributes="href string:${view/groupInfo/relativeURL}/">
           <strong
             tal:content="view/groupInfo/name">This group</strong></a>
