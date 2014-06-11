@@ -18,7 +18,7 @@ from zope.component import createObject
 from zope.formlib import form
 from Products.Five.browser.pagetemplatefile import ZopeTwoPageTemplateFile
 from gs.group.base import GroupForm
-from gs.content.form import radio_widget
+from gs.content.form.base import radio_widget
 from .interfaces import IGSModerateGroup
 
 
